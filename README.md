@@ -11,9 +11,6 @@
 # *Introduction*
 The project explores how to create a realistic 3D maze using raycasting.
 
-To read my blog post visit: [LinkedIn](https://www.linkedin.com/pulse/maze-journey-3d-game-development-dad-mohammed-bp1oe/?trackingId=d2fM42NIQe299Z%2BpPhDzfA%3D%3D)
-
-
 ## *How to Compile and Run this Maze*
 *Note:* To compile this program, ensure that libsdl2 is installed on the system <br>
 If libsdl2 is not installed, on Ubuntu run
