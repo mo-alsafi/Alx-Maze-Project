@@ -1,0 +1,153 @@
+*{
+	margin: 0px;
+	padding: 0px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+};
+
+body{
+    background-color: rgb(8, 94, 19);
+}
+
+.land{
+    width: 100%;
+    height: 100vh;
+    background-image: url(screenshots/screencast_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.header p{
+    font-size: 38px;
+    color: white;
+    margin-left: 30px;
+    margin-top: 15px;
+    line-height: 0px;
+}
+.land ul{
+   margin-top: 20px;
+}
+.land ul li{
+    display: inline;
+    
+}
+.land ul li a{
+    margin-right: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+}
+.land ul li a:hover{
+    color:  rgb(114, 25, 5);
+    text-decoration: underline;
+    transition: 0.5s;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+}
+.main p{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.main a button{
+    width: 150px;
+    height: 50px;
+    font-size: 26px;
+    color: white;
+    background-color: rgb(114, 5, 5);
+    border: 2px solid white;
+    border-radius: 12px;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.main a button:hover{
+    background-color: white;
+    border: 2px solid rgb(114, 25, 5);
+    color: rgb(114, 5, 5);
+    transition: 0.5s;
+    font-size: 22px;
+}
+#feature{
+    height: 900px;
+    width: 100%;
+    background-color: rgb(8, 94, 19);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.cont{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    width: 80%;
+    background-color: rgb(8, 94, 19);
+}
+.cont h2{
+    margin-top: 30px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.cont p{
+
+}
+.cont img{
+    height: 250px;
+    width: 400px;
+    border-radius: 6px;
+}
+.explan{
+    width: 45%;;
+}
+#about{
+    margin: 0px;
+    max-width: 100%;
+    height: 950px;
+    padding-left: 50px;
+    background-color: rgb(8, 94, 19);
+    overflow-x: hidden;
+}
+#about p{
+    width: 90%;
+    font-size: 20px;
+    color: white;
+}
+#about h4{
+    font-size: 36px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 600;
+}
+#about ul{
+    padding: 20px;
+}
+#about ul li{
+    margin-bottom: 5px;
+}
+#about ul li a{
+    font-size: 20px;
+    color: black;
+}
+#about a{
+    font-size: 20px;
+    color: black;
+}
