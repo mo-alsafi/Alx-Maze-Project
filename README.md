@@ -4,8 +4,6 @@
 
 <br>
 
-![Maze](./screenshots/screencast_1.png)
-
 <br>
 
 # *Introduction*
